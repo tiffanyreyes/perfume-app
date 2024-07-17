@@ -1,0 +1,36 @@
+<mat-card>
+  <mat-card-content>
+    <div class="row welcome-banner">
+      <div class="col-12 col-md-6">
+        <img mat-card-image src="assets/home-photo.png" style="width: 60%;">
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="text-banner">
+          <h1>Scent Finder</h1>
+          <h2>Here to help you find similar perfumes, dupes, or try something new!</h2>
+          <h2>Simply pick a category and input what perfume you have or are looking for dupes for to begin.</h2>
+        </div>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>
+<mat-card>
+  <mat-card-content>
+    <h2 style="justify-content: center;">I am looking for a...</h2>
+  </mat-card-content>
+</mat-card>
+<mat-card>
+  <mat-card-content>
+    <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="center">
+      <mat-tab label="Similar Scent">
+        <mat-form-field class="perfume-form-field">
+          <mat-label>Enter a perfume</mat-label>
+          <input matInput type="text" [formControl]="searchTerm" id="searchTerm" name="searchTerm" required>
+        </mat-form-field>
+        <button mat-raised-button aria-label="" type="submit" (click)="onSearch()">Submit</button>
+      </mat-tab>
+      <mat-tab label="Cheaper Alternative">Content 2</mat-tab>
+      <mat-tab label="Third">Something New</mat-tab>
+    </mat-tab-group>
+  </mat-card-content>
+</mat-card>

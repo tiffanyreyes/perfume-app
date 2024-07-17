@@ -1,0 +1,13 @@
+<!-- perfume-list.component.html -->
+<div class="perfume-list">
+  <div *ngFor="let perfume of perfumes">
+      <img [src]="perfume.imageUrl" alt="{{ perfume.name }}">
+      <h3>{{ perfume.name }}</h3>
+      <p>Brand: {{ perfume.brand }}</p>
+      <p>Price: {{ perfume.price }}</p>
+  </div>
+  <div *ngIf="perfumes.length === 0">
+      No perfumes found.
+  </div>
+</div>
+

@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What scent type are you more drawn to?",
+    "options": ["Floral", "Fruity", "Earthy", "Spicy"],
+    "answer": "",
+    "id": 1
+  },
+  {
+    "question": "When choosing a scent, what do you want it to smell like?",
+    "options": ["something light for everyday", "something that continues to change as you wear it", "something that is noticed when you walk into a room"],
+    "answer": "",
+    "id": 2
+  },
+  {
+    "question": "How would you describe yourself?",
+    "options": ["Modern & Sophisticated", "Soft & Romantic", "Bold & Dramatic", "Natural & Casual"],
+    "answer": "",
+    "id": 3
+  },
+  {
+    "question": "What do you prioritize in a fragrance",
+    "options": ["something with clean ingredients", "something trendy", "something low cost", "something from a top brand"],
+    "answer": "",
+    "id": 4
+  }
+]

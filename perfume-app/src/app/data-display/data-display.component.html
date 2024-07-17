@@ -1,0 +1,10 @@
+<!-- data-display.component.html -->
+<div *ngIf="data.length > 0">
+  <ul>
+      <li *ngFor="let item of data">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.description }}</p>
+      </li>
+  </ul>
+</div>
+
